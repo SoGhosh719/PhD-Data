@@ -2,7 +2,7 @@
 
 Here’s your complete **README.md** file combining all the details in Markdown format:
 
-```markdown
+
 # 🔍 University Homepage Finder
 
 This project **automates the process of finding university homepages** using multiple search methods, including:
@@ -13,7 +13,6 @@ This project **automates the process of finding university homepages** using mul
 - **Google Scraping (No API)**
 - **Static University Database (CSV)**
 
----
 
 ## 🔹 Goal of the Project
 - Extract a list of **universities in the US** from a CSV file.
