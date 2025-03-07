@@ -40,7 +40,7 @@ for row in the_soup.find_all('tr')[1:]:
 # Convert THE rankings to DataFrame
 the_df = pd.DataFrame(the_rankings)
 # Load your existing list of universities
-universities_df = pd.read_csv('universities_list.csv')
+universities_df = pd.read_csv('universities_with_homepages_SerpAPI.csv')
 
 # Merge with QS rankings
 merged_df = pd.merge(universities_df, qs_df, how='left', left_on='Name', right_on='University')
